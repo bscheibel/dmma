@@ -5,8 +5,8 @@ from sklearn import tree
 from sklearn.metrics import precision_recall_fscore_support as score
 from csv import DictReader
 import collections
-from sklearn.metrics import accuracy_score, roc_auc_score, log_loss, brier_score_loss
-from sklearn.tree import plot_tree, export_text  # tree diagram
+from sklearn.metrics import accuracy_score, log_loss, brier_score_loss
+from sklearn.tree import export_text  # tree diagram
 
 
 def slice_odict(odict, start=None, end=None):
@@ -286,5 +286,5 @@ if __name__ == "__main__":
     main(use_case="seasonal")
     print("loan")
     main(use_case="loan")
-    print("bpi20")
-    main(use_case="permit_bpi20")
+    #print("bpi20")
+    #main(use_case="permit_bpi20")
