@@ -1,0 +1,78 @@
+Mean accuracy: 0
+Mean F1 Score: 0
+----------------------------------------------------------------------------------------------------
+From instance 200
+|--- hotel_bookings <= 90.50
+|   |--- class: standard
+|--- hotel_bookings >  90.50
+|   |--- class: premium
+
+Mean accuracy: 0.9685064935064934
+Mean F1 Score: 0.9622122191963357
+----------------------------------------------------------------------------------------------------
+From instance 2769
+|--- hotel_bookings <= 60.50
+|   |--- class: standard
+|--- hotel_bookings >  60.50
+|   |--- class: premium
+
+Mean accuracy: 0.986043002640513
+Mean F1 Score: 0.9864874085302248
+----------------------------------------------------------------------------------------------------
+From instance 5109
+|--- hotel_bookings <= 60.50
+|   |--- class: standard
+|--- hotel_bookings >  60.50
+|   |--- hotel_bookings <= 90.50
+|   |   |--- hotel_bookings <= 78.50
+|   |   |   |--- hotel_bookings <= 61.50
+|   |   |   |   |--- class: premium
+|   |   |   |--- hotel_bookings >  61.50
+|   |   |   |   |--- class: standard
+|   |   |--- hotel_bookings >  78.50
+|   |   |   |--- hotel_bookings <= 84.50
+|   |   |   |   |--- class: premium
+|   |   |   |--- hotel_bookings >  84.50
+|   |   |   |   |--- class: premium
+|   |--- hotel_bookings >  90.50
+|   |   |--- class: premium
+
+Mean accuracy: 0.8681580004443753
+Mean F1 Score: 0.8881709694704198
+----------------------------------------------------------------------------------------------------
+From instance 6530
+|--- hotel_bookings <= 91.00
+|   |--- class: standard
+|--- hotel_bookings >  91.00
+|   |--- class: premium
+
+Mean accuracy: 0.9716368637904593
+Mean F1 Score: 0.9673284986905575
+----------------------------------------------------------------------------------------------------
+From instance 7577
+|--- hotel_bookings <= 67.50
+|   |--- class: standard
+|--- hotel_bookings >  67.50
+|   |--- hotel_bookings <= 90.50
+|   |   |--- hotel_bookings <= 70.50
+|   |   |   |--- class: premium
+|   |   |--- hotel_bookings >  70.50
+|   |   |   |--- hotel_bookings <= 71.50
+|   |   |   |   |--- class: standard
+|   |   |   |--- hotel_bookings >  71.50
+|   |   |   |   |--- class: premium
+|   |--- hotel_bookings >  90.50
+|   |   |--- class: premium
+
+Mean accuracy: 0.9007002410452285
+Mean F1 Score: 0.8984022641383943
+----------------------------------------------------------------------------------------------------
+From instance 8541
+|--- hotel_bookings <= 61.50
+|   |--- class: standard
+|--- hotel_bookings >  61.50
+|   |--- class: premium
+
+Last Instance: 10000
+Mean accuracy: 0.9917786507558394
+Mean F1 Score: 0.9917591410243762

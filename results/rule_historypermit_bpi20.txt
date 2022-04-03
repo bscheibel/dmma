@@ -1,0 +1,12 @@
+Mean accuracy: 0
+Mean F1 Score: 0
+----------------------------------------------------------------------------------------------------
+From instance 200
+|--- case:OverspentAmount <= 2.59
+|   |--- class: False
+|--- case:OverspentAmount >  2.59
+|   |--- class: True
+
+Last Instance: 7544
+Mean accuracy: 0.9942043437154694
+Mean F1 Score: 0.9941661614950207

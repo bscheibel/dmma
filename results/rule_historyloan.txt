@@ -1,0 +1,27 @@
+Mean accuracy: 0
+Mean F1 Score: 0
+----------------------------------------------------------------------------------------------------
+From instance 200
+|--- amount_loan <= 79902.00
+|   |--- amount_loan <= 21196.50
+|   |   |--- class: Simple Check
+|   |--- amount_loan >  21196.50
+|   |   |--- class: Normal Check
+|--- amount_loan >  79902.00
+|   |--- class: Extensive Check
+
+Mean accuracy: 0.9648340002143471
+Mean F1 Score: 0.9642261136125202
+----------------------------------------------------------------------------------------------------
+From instance 2741
+|--- amount_loan <= 50492.50
+|   |--- amount_loan <= 20026.00
+|   |   |--- class: Simple Check
+|   |--- amount_loan >  20026.00
+|   |   |--- class: Normal Check
+|--- amount_loan >  50492.50
+|   |--- class: Extensive Check
+
+Last Instance: 5000
+Mean accuracy: 0.9915430264721266
+Mean F1 Score: 0.9915676162988722
