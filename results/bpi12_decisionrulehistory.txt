@@ -1,0 +1,955 @@
+Mean accuracy: 0
+Mean F1 Score: 0
+----------------------------------------------------------------------------------------------------
+From instance 200
+|--- case:AMOUNT_REQ <= 15250.00
+|   |--- case:AMOUNT_REQ <= 5933.50
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  5933.50
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  15250.00
+|   |--- case:AMOUNT_REQ <= 65000.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  65000.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3075
+Mean F1 Score: 0.2925035332121946
+----------------------------------------------------------------------------------------------------
+From instance 201
+|--- case:AMOUNT_REQ <= 15250.00
+|   |--- case:AMOUNT_REQ <= 4500.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  4500.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  15250.00
+|   |--- case:AMOUNT_REQ <= 65000.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  65000.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3075
+Mean F1 Score: 0.2925035332121946
+----------------------------------------------------------------------------------------------------
+From instance 402
+|--- case:AMOUNT_REQ <= 4750.00
+|   |--- case:AMOUNT_REQ <= 2550.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2550.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  4750.00
+|   |--- case:AMOUNT_REQ <= 40500.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  40500.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.2875
+Mean F1 Score: 0.24956047665169792
+----------------------------------------------------------------------------------------------------
+From instance 603
+|--- case:AMOUNT_REQ <= 12250.00
+|   |--- case:AMOUNT_REQ <= 5972.50
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  5972.50
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  12250.00
+|   |--- case:AMOUNT_REQ <= 31000.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  31000.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.34
+Mean F1 Score: 0.32986788950758816
+----------------------------------------------------------------------------------------------------
+From instance 804
+|--- case:AMOUNT_REQ <= 5750.00
+|   |--- case:AMOUNT_REQ <= 2750.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2750.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  5750.00
+|   |--- case:AMOUNT_REQ <= 42650.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  42650.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.2925
+Mean F1 Score: 0.28609168756808795
+----------------------------------------------------------------------------------------------------
+From instance 1005
+|--- case:AMOUNT_REQ <= 3125.00
+|   |--- case:AMOUNT_REQ <= 1500.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  1500.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  3125.00
+|   |--- case:AMOUNT_REQ <= 3750.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  3750.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.28
+Mean F1 Score: 0.21257675438596493
+----------------------------------------------------------------------------------------------------
+From instance 1206
+|--- case:AMOUNT_REQ <= 5250.00
+|   |--- case:AMOUNT_REQ <= 1450.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  1450.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  5250.00
+|   |--- case:AMOUNT_REQ <= 19250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  19250.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.2925
+Mean F1 Score: 0.281953642384106
+----------------------------------------------------------------------------------------------------
+From instance 1407
+|--- case:AMOUNT_REQ <= 3875.00
+|   |--- case:AMOUNT_REQ <= 1250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  1250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  3875.00
+|   |--- case:AMOUNT_REQ <= 7250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  7250.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3425
+Mean F1 Score: 0.2784718100890208
+----------------------------------------------------------------------------------------------------
+From instance 1608
+|--- case:AMOUNT_REQ <= 7750.00
+|   |--- case:AMOUNT_REQ <= 1350.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  1350.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  7750.00
+|   |--- case:AMOUNT_REQ <= 55000.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  55000.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3025
+Mean F1 Score: 0.3032163852407755
+----------------------------------------------------------------------------------------------------
+From instance 1809
+|--- case:AMOUNT_REQ <= 3650.00
+|   |--- case:AMOUNT_REQ <= 875.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  875.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  3650.00
+|   |--- case:AMOUNT_REQ <= 5565.50
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  5565.50
+|   |   |--- class: rejected
+
+Mean accuracy: 0.28
+Mean F1 Score: 0.2508823529411765
+----------------------------------------------------------------------------------------------------
+From instance 2010
+|--- case:AMOUNT_REQ <= 12750.00
+|   |--- case:AMOUNT_REQ <= 5250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  5250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  12750.00
+|   |--- case:AMOUNT_REQ <= 26250.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  26250.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.3225
+Mean F1 Score: 0.3222991829038341
+----------------------------------------------------------------------------------------------------
+From instance 2211
+|--- case:AMOUNT_REQ <= 4500.00
+|   |--- case:AMOUNT_REQ <= 3500.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  3500.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  4500.00
+|   |--- case:AMOUNT_REQ <= 17250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  17250.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.3
+Mean F1 Score: 0.2864527629233512
+----------------------------------------------------------------------------------------------------
+From instance 2412
+|--- case:AMOUNT_REQ <= 3300.00
+|   |--- case:AMOUNT_REQ <= 2250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  3300.00
+|   |--- case:AMOUNT_REQ <= 3900.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  3900.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.29
+Mean F1 Score: 0.22045161290322582
+----------------------------------------------------------------------------------------------------
+From instance 2613
+|--- case:AMOUNT_REQ <= 12750.00
+|   |--- case:AMOUNT_REQ <= 2750.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2750.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  12750.00
+|   |--- case:AMOUNT_REQ <= 46250.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  46250.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.34
+Mean F1 Score: 0.33367032967032967
+----------------------------------------------------------------------------------------------------
+From instance 2814
+|--- case:AMOUNT_REQ <= 7888.50
+|   |--- case:AMOUNT_REQ <= 1750.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  1750.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  7888.50
+|   |--- case:AMOUNT_REQ <= 36800.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  36800.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3175
+Mean F1 Score: 0.3163682809871708
+----------------------------------------------------------------------------------------------------
+From instance 3015
+|--- case:AMOUNT_REQ <= 8750.00
+|   |--- case:AMOUNT_REQ <= 2750.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2750.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  8750.00
+|   |--- case:AMOUNT_REQ <= 47500.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  47500.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3225
+Mean F1 Score: 0.3221937435923083
+----------------------------------------------------------------------------------------------------
+From instance 3216
+|--- case:AMOUNT_REQ <= 26306.00
+|   |--- case:AMOUNT_REQ <= 3250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  3250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  26306.00
+|   |--- case:AMOUNT_REQ <= 29625.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  29625.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.325
+Mean F1 Score: 0.30071877807726866
+----------------------------------------------------------------------------------------------------
+From instance 3417
+|--- case:AMOUNT_REQ <= 6625.00
+|   |--- case:AMOUNT_REQ <= 5250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  5250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  6625.00
+|   |--- case:AMOUNT_REQ <= 6875.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  6875.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.38
+Mean F1 Score: 0.3306285714285715
+----------------------------------------------------------------------------------------------------
+From instance 3618
+|--- case:AMOUNT_REQ <= 7750.00
+|   |--- case:AMOUNT_REQ <= 3750.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  3750.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  7750.00
+|   |--- case:AMOUNT_REQ <= 48500.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  48500.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.33
+Mean F1 Score: 0.27549928332537027
+----------------------------------------------------------------------------------------------------
+From instance 3819
+|--- case:AMOUNT_REQ <= 10665.00
+|   |--- case:AMOUNT_REQ <= 3498.50
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  3498.50
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  10665.00
+|   |--- case:AMOUNT_REQ <= 17250.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  17250.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.3175
+Mean F1 Score: 0.31787642280563266
+----------------------------------------------------------------------------------------------------
+From instance 4020
+|--- case:AMOUNT_REQ <= 4843.50
+|   |--- case:AMOUNT_REQ <= 2750.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2750.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  4843.50
+|   |--- case:AMOUNT_REQ <= 11500.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  11500.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.36
+Mean F1 Score: 0.30139534883720925
+----------------------------------------------------------------------------------------------------
+From instance 4221
+|--- case:AMOUNT_REQ <= 7250.00
+|   |--- case:AMOUNT_REQ <= 4750.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  4750.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  7250.00
+|   |--- case:AMOUNT_REQ <= 22056.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  22056.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.385
+Mean F1 Score: 0.3675474254742548
+----------------------------------------------------------------------------------------------------
+From instance 4422
+|--- case:AMOUNT_REQ <= 4950.00
+|   |--- case:AMOUNT_REQ <= 2750.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2750.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  4950.00
+|   |--- case:AMOUNT_REQ <= 16375.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  16375.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.355
+Mean F1 Score: 0.2947953216374269
+----------------------------------------------------------------------------------------------------
+From instance 4623
+|--- case:AMOUNT_REQ <= 5450.00
+|   |--- case:AMOUNT_REQ <= 2350.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2350.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  5450.00
+|   |--- case:AMOUNT_REQ <= 6250.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  6250.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.355
+Mean F1 Score: 0.3093030303030303
+----------------------------------------------------------------------------------------------------
+From instance 4824
+|--- case:AMOUNT_REQ <= 5500.00
+|   |--- case:AMOUNT_REQ <= 2250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  5500.00
+|   |--- case:AMOUNT_REQ <= 49000.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  49000.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3175
+Mean F1 Score: 0.3173038075951899
+----------------------------------------------------------------------------------------------------
+From instance 5025
+|--- case:AMOUNT_REQ <= 5750.00
+|   |--- case:AMOUNT_REQ <= 1250.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  1250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  5750.00
+|   |--- case:AMOUNT_REQ <= 25500.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  25500.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3175
+Mean F1 Score: 0.2510512820512821
+----------------------------------------------------------------------------------------------------
+From instance 5226
+|--- case:AMOUNT_REQ <= 7250.00
+|   |--- case:AMOUNT_REQ <= 4500.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  4500.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  7250.00
+|   |--- case:AMOUNT_REQ <= 8750.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  8750.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.31
+Mean F1 Score: 0.30724165742514364
+----------------------------------------------------------------------------------------------------
+From instance 5427
+|--- case:AMOUNT_REQ <= 4750.00
+|   |--- case:AMOUNT_REQ <= 2400.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2400.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  4750.00
+|   |--- case:AMOUNT_REQ <= 45500.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  45500.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.3225
+Mean F1 Score: 0.26772978830450095
+----------------------------------------------------------------------------------------------------
+From instance 5628
+|--- case:AMOUNT_REQ <= 13750.00
+|   |--- case:AMOUNT_REQ <= 1250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  1250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  13750.00
+|   |--- case:AMOUNT_REQ <= 17250.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  17250.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3225
+Mean F1 Score: 0.2805284682954586
+----------------------------------------------------------------------------------------------------
+From instance 5829
+|--- case:AMOUNT_REQ <= 27500.00
+|   |--- case:AMOUNT_REQ <= 20500.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  20500.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  27500.00
+|   |--- case:AMOUNT_REQ <= 34018.50
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  34018.50
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3425
+Mean F1 Score: 0.29810160427807486
+----------------------------------------------------------------------------------------------------
+From instance 6030
+|--- case:AMOUNT_REQ <= 9500.00
+|   |--- case:AMOUNT_REQ <= 3750.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  3750.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  9500.00
+|   |--- case:AMOUNT_REQ <= 45561.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  45561.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3125
+Mean F1 Score: 0.31306890844805535
+----------------------------------------------------------------------------------------------------
+From instance 6231
+|--- case:AMOUNT_REQ <= 6485.00
+|   |--- case:AMOUNT_REQ <= 256.50
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  256.50
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  6485.00
+|   |--- case:AMOUNT_REQ <= 32500.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  32500.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3175
+Mean F1 Score: 0.3177601210272311
+----------------------------------------------------------------------------------------------------
+From instance 6432
+|--- case:AMOUNT_REQ <= 8750.00
+|   |--- case:AMOUNT_REQ <= 275.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  275.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  8750.00
+|   |--- case:AMOUNT_REQ <= 32500.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  32500.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3375
+Mean F1 Score: 0.33910972612804335
+----------------------------------------------------------------------------------------------------
+From instance 6633
+|--- case:AMOUNT_REQ <= 7750.00
+|   |--- case:AMOUNT_REQ <= 7400.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  7400.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  7750.00
+|   |--- case:AMOUNT_REQ <= 45750.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  45750.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3225
+Mean F1 Score: 0.32203377110694187
+----------------------------------------------------------------------------------------------------
+From instance 6834
+|--- case:AMOUNT_REQ <= 3750.00
+|   |--- case:AMOUNT_REQ <= 1750.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  1750.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  3750.00
+|   |--- case:AMOUNT_REQ <= 50500.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  50500.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.275
+Mean F1 Score: 0.22451432734337054
+----------------------------------------------------------------------------------------------------
+From instance 7035
+|--- case:AMOUNT_REQ <= 4750.00
+|   |--- case:AMOUNT_REQ <= 3250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  3250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  4750.00
+|   |--- case:AMOUNT_REQ <= 22250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  22250.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.2975
+Mean F1 Score: 0.2773180039410508
+----------------------------------------------------------------------------------------------------
+From instance 7236
+|--- case:AMOUNT_REQ <= 3750.00
+|   |--- case:AMOUNT_REQ <= 2750.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2750.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  3750.00
+|   |--- case:AMOUNT_REQ <= 49500.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  49500.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3
+Mean F1 Score: 0.27692307692307694
+----------------------------------------------------------------------------------------------------
+From instance 7437
+|--- case:AMOUNT_REQ <= 4250.00
+|   |--- case:AMOUNT_REQ <= 1250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  1250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  4250.00
+|   |--- case:AMOUNT_REQ <= 6306.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  6306.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.2975
+Mean F1 Score: 0.2917180968305845
+----------------------------------------------------------------------------------------------------
+From instance 7638
+|--- case:AMOUNT_REQ <= 6125.00
+|   |--- case:AMOUNT_REQ <= 2250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  6125.00
+|   |--- case:AMOUNT_REQ <= 6750.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  6750.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3075
+Mean F1 Score: 0.2432991904526624
+----------------------------------------------------------------------------------------------------
+From instance 7839
+|--- case:AMOUNT_REQ <= 10250.00
+|   |--- case:AMOUNT_REQ <= 4250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  4250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  10250.00
+|   |--- case:AMOUNT_REQ <= 48500.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  48500.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.32
+Mean F1 Score: 0.3184244670991659
+----------------------------------------------------------------------------------------------------
+From instance 8040
+|--- case:AMOUNT_REQ <= 2750.00
+|   |--- class: rejected
+|--- case:AMOUNT_REQ >  2750.00
+|   |--- case:AMOUNT_REQ <= 31546.50
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  31546.50
+|   |   |--- class: accepted
+
+Mean accuracy: 0.3175
+Mean F1 Score: 0.2757789569542223
+----------------------------------------------------------------------------------------------------
+From instance 8241
+|--- case:AMOUNT_REQ <= 5450.00
+|   |--- case:AMOUNT_REQ <= 2250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  5450.00
+|   |--- case:AMOUNT_REQ <= 56500.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  56500.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.3125
+Mean F1 Score: 0.24540104105051463
+----------------------------------------------------------------------------------------------------
+From instance 8442
+|--- case:AMOUNT_REQ <= 6100.00
+|   |--- case:AMOUNT_REQ <= 5650.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  5650.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  6100.00
+|   |--- case:AMOUNT_REQ <= 7125.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  7125.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3275
+Mean F1 Score: 0.2707074411451556
+----------------------------------------------------------------------------------------------------
+From instance 8643
+|--- case:AMOUNT_REQ <= 7650.00
+|   |--- case:AMOUNT_REQ <= 3125.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  3125.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  7650.00
+|   |--- case:AMOUNT_REQ <= 9300.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  9300.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.3125
+Mean F1 Score: 0.31290790427846266
+----------------------------------------------------------------------------------------------------
+From instance 8844
+|--- case:AMOUNT_REQ <= 7256.00
+|   |--- case:AMOUNT_REQ <= 4200.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  4200.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  7256.00
+|   |--- case:AMOUNT_REQ <= 9700.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  9700.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3175
+Mean F1 Score: 0.2822013973972648
+----------------------------------------------------------------------------------------------------
+From instance 9045
+|--- case:AMOUNT_REQ <= 10500.00
+|   |--- case:AMOUNT_REQ <= 2250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  10500.00
+|   |--- case:AMOUNT_REQ <= 22401.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  22401.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3325
+Mean F1 Score: 0.3254191288537126
+----------------------------------------------------------------------------------------------------
+From instance 9246
+|--- case:AMOUNT_REQ <= 10662.50
+|   |--- case:AMOUNT_REQ <= 2850.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2850.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  10662.50
+|   |--- case:AMOUNT_REQ <= 27557.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  27557.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3325
+Mean F1 Score: 0.3293968970987604
+----------------------------------------------------------------------------------------------------
+From instance 9447
+|--- case:AMOUNT_REQ <= 2250.00
+|   |--- class: rejected
+|--- case:AMOUNT_REQ >  2250.00
+|   |--- case:AMOUNT_REQ <= 23500.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  23500.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.285
+Mean F1 Score: 0.26730046948356806
+----------------------------------------------------------------------------------------------------
+From instance 9648
+|--- case:AMOUNT_REQ <= 5125.00
+|   |--- case:AMOUNT_REQ <= 2250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  5125.00
+|   |--- case:AMOUNT_REQ <= 37500.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  37500.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.315
+Mean F1 Score: 0.3134446001401261
+----------------------------------------------------------------------------------------------------
+From instance 9849
+|--- case:AMOUNT_REQ <= 4800.00
+|   |--- case:AMOUNT_REQ <= 2750.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2750.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  4800.00
+|   |--- case:AMOUNT_REQ <= 11250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  11250.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.31
+Mean F1 Score: 0.30648591845313156
+----------------------------------------------------------------------------------------------------
+From instance 10050
+|--- case:AMOUNT_REQ <= 11150.00
+|   |--- case:AMOUNT_REQ <= 2750.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2750.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  11150.00
+|   |--- case:AMOUNT_REQ <= 42000.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  42000.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3175
+Mean F1 Score: 0.316370731583102
+----------------------------------------------------------------------------------------------------
+From instance 10251
+|--- case:AMOUNT_REQ <= 8250.00
+|   |--- case:AMOUNT_REQ <= 2250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  8250.00
+|   |--- case:AMOUNT_REQ <= 42500.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  42500.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3275
+Mean F1 Score: 0.3278692301881091
+----------------------------------------------------------------------------------------------------
+From instance 10452
+|--- case:AMOUNT_REQ <= 20500.00
+|   |--- case:AMOUNT_REQ <= 1250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  1250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  20500.00
+|   |--- case:AMOUNT_REQ <= 27236.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  27236.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.28
+Mean F1 Score: 0.25661024449607256
+----------------------------------------------------------------------------------------------------
+From instance 10653
+|--- case:AMOUNT_REQ <= 4500.00
+|   |--- case:AMOUNT_REQ <= 3250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  3250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  4500.00
+|   |--- case:AMOUNT_REQ <= 36350.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  36350.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3
+Mean F1 Score: 0.22499999999999998
+----------------------------------------------------------------------------------------------------
+From instance 10854
+|--- case:AMOUNT_REQ <= 1750.00
+|   |--- class: rejected
+|--- case:AMOUNT_REQ >  1750.00
+|   |--- case:AMOUNT_REQ <= 13750.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  13750.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.315
+Mean F1 Score: 0.24349693251533744
+----------------------------------------------------------------------------------------------------
+From instance 11055
+|--- case:AMOUNT_REQ <= 15500.00
+|   |--- case:AMOUNT_REQ <= 3250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  3250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  15500.00
+|   |--- case:AMOUNT_REQ <= 46500.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  46500.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.335
+Mean F1 Score: 0.3297141624420235
+----------------------------------------------------------------------------------------------------
+From instance 11256
+|--- case:AMOUNT_REQ <= 8600.00
+|   |--- case:AMOUNT_REQ <= 3250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  3250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  8600.00
+|   |--- case:AMOUNT_REQ <= 8850.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  8850.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.33
+Mean F1 Score: 0.2649437229437229
+----------------------------------------------------------------------------------------------------
+From instance 11457
+|--- case:AMOUNT_REQ <= 5250.00
+|   |--- case:AMOUNT_REQ <= 400.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  400.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  5250.00
+|   |--- case:AMOUNT_REQ <= 41097.50
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  41097.50
+|   |   |--- class: rejected
+
+Mean accuracy: 0.305
+Mean F1 Score: 0.30414165666266507
+----------------------------------------------------------------------------------------------------
+From instance 11658
+|--- case:AMOUNT_REQ <= 3250.00
+|   |--- case:AMOUNT_REQ <= 1750.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  1750.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  3250.00
+|   |--- case:AMOUNT_REQ <= 11500.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  11500.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.305
+Mean F1 Score: 0.29913934426229505
+----------------------------------------------------------------------------------------------------
+From instance 11859
+|--- case:AMOUNT_REQ <= 8875.00
+|   |--- case:AMOUNT_REQ <= 2375.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  2375.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  8875.00
+|   |--- case:AMOUNT_REQ <= 62500.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  62500.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3225
+Mean F1 Score: 0.32296650897349255
+----------------------------------------------------------------------------------------------------
+From instance 12060
+|--- case:AMOUNT_REQ <= 18500.00
+|   |--- case:AMOUNT_REQ <= 1800.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  1800.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  18500.00
+|   |--- case:AMOUNT_REQ <= 47500.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  47500.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.32
+Mean F1 Score: 0.30213235294117646
+----------------------------------------------------------------------------------------------------
+From instance 12261
+|--- case:AMOUNT_REQ <= 15500.00
+|   |--- case:AMOUNT_REQ <= 1575.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  1575.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  15500.00
+|   |--- case:AMOUNT_REQ <= 17250.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  17250.00
+|   |   |--- class: accepted
+
+Mean accuracy: 0.335
+Mean F1 Score: 0.32752000000000003
+----------------------------------------------------------------------------------------------------
+From instance 12462
+|--- case:AMOUNT_REQ <= 6750.00
+|   |--- case:AMOUNT_REQ <= 4750.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  4750.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  6750.00
+|   |--- case:AMOUNT_REQ <= 57000.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  57000.00
+|   |   |--- class: rejected
+
+Mean accuracy: 0.3225
+Mean F1 Score: 0.3138762343647137
+----------------------------------------------------------------------------------------------------
+From instance 12663
+|--- case:AMOUNT_REQ <= 5750.00
+|   |--- case:AMOUNT_REQ <= 3250.00
+|   |   |--- class: rejected
+|   |--- case:AMOUNT_REQ >  3250.00
+|   |   |--- class: rejected
+|--- case:AMOUNT_REQ >  5750.00
+|   |--- case:AMOUNT_REQ <= 42000.00
+|   |   |--- class: accepted
+|   |--- case:AMOUNT_REQ >  42000.00
+|   |   |--- class: rejected
+
+Last Instance: 12748
+Mean accuracy: 0.59
+Mean F1 Score: 0.5782904936760507
+
