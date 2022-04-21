@@ -1,0 +1,94 @@
+Mean accuracy: 0
+Mean F1 Score: 0
+----------------------------------------------------------------------------------------------------
+From instance 200
+|--- LacticAcid <= 0.75
+|   |--- LacticAcid <= 0.30
+|   |   |--- class: Admission NC
+|   |--- LacticAcid >  0.30
+|   |   |--- class: Admission NC
+|--- LacticAcid >  0.75
+|   |--- class: Admission NC
+
+Mean accuracy: 0.494475138121547
+Mean F1 Score: 0.4917280540208717
+----------------------------------------------------------------------------------------------------
+From instance 201
+|---  <= 2395.00
+|   |--- LacticAcid <= 0.75
+|   |   |--- class: Admission NC
+|   |--- LacticAcid >  0.75
+|   |   |--- class: Admission NC
+|---  >  2395.00
+|   |--- class: Admission IC
+
+Mean accuracy: 0.494475138121547
+Mean F1 Score: 0.4931093552270132
+----------------------------------------------------------------------------------------------------
+From instance 402
+|--- LacticAcid <= 5.35
+|   |--- CRP <= 144.00
+|   |   |--- class: Admission NC
+|   |--- CRP >  144.00
+|   |   |--- class: Admission NC
+|--- LacticAcid >  5.35
+|   |---  <= 2459.50
+|   |   |--- class: Admission NC
+|   |---  >  2459.50
+|   |   |--- class: Admission IC
+
+Mean accuracy: 0.495
+Mean F1 Score: 0.49417935702199656
+----------------------------------------------------------------------------------------------------
+From instance 603
+|--- Leucocytes <= 123.65
+|   |--- CRP <= 313.00
+|   |   |--- class: Admission NC
+|   |--- CRP >  313.00
+|   |   |--- class: Admission NC
+|--- Leucocytes >  123.65
+|   |---  <= 6167.00
+|   |   |--- class: Admission NC
+|   |---  >  6167.00
+|   |   |--- class: Admission IC
+
+Mean accuracy: 0.495
+Mean F1 Score: 0.49376262626262624
+----------------------------------------------------------------------------------------------------
+From instance 804
+|--- Leucocytes <= 86.75
+|   |---  <= 6666.50
+|   |   |--- class: Admission NC
+|   |---  >  6666.50
+|   |   |--- class: Admission NC
+|--- Leucocytes >  86.75
+|   |--- class: Admission IC
+
+Mean accuracy: 0.4975
+Mean F1 Score: 0.49708648194794286
+----------------------------------------------------------------------------------------------------
+From instance 1005
+|--- LacticAcid <= 6.75
+|   |---  <= 11454.00
+|   |   |--- class: Admission NC
+|   |---  >  11454.00
+|   |   |--- class: Admission NC
+|--- LacticAcid >  6.75
+|   |--- class: Admission IC
+
+Mean accuracy: 0.4975
+Mean F1 Score: 0.49708648194794286
+----------------------------------------------------------------------------------------------------
+From instance 1206
+|--- LacticAcid <= 11.55
+|   |--- Leucocytes <= 17.70
+|   |   |--- class: Admission NC
+|   |--- Leucocytes >  17.70
+|   |   |--- class: Admission NC
+|--- LacticAcid >  11.55
+|   |--- class: Admission IC
+
+Last Instance: 1299
+Mean accuracy: 0.98
+Mean F1 Score: 0.9734348561759729
+
